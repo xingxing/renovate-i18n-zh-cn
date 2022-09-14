@@ -1,21 +1,39 @@
 # Language zh-CN translations for renovate-platform package.
 # Copyright (C) 2022 THE renovate-platform'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the renovate-platform package.
-# xingxing <wadexing@gmail.com[a>, 2022.
+# xingxing <wadexing@gmail.com>, 2022.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: renovate-platform\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-13 19:40+0800\n"
-"PO-Revision-Date: 2022-09-13 20:07+0800\n"
-"Last-Translator: xingxing <wadexing@gmail.com[a>\n"
+"POT-Creation-Date: 2022-09-15 11:23+0800\n"
+"PO-Revision-Date: 2022-09-15 11:38+0800\n"
+"Last-Translator: xingxing <wadexing@gmail.com>\n"
 "Language-Team: Language zh-CN\n"
-"Language: zh_CN\n"
+"Language: zh-CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.1.1\n"
+
+#: lib/config/presets/internal/default.ts:542
+msgid "Enable Renovate Dependency Dashboard creation."
+msgstr ""
+
+#: lib/modules/platform/github/index.ts:131
+msgid "You must configure a GitHub token"
+msgstr ""
+
+#: lib/workers/repository/onboarding/pr/config-description.ts:50
+msgid ""
+"Configuration Summary\n"
+"\n"
+"Based on the default config's presets, Renovate will:"
+msgstr ""
+
+#: lib/workers/repository/onboarding/pr/config-description.ts:53
+msgid "Start dependency updates only once this onboarding PR is merged"
+msgstr ""
 
 #: lib/workers/repository/onboarding/pr/index.ts:45
 #, javascript-format
@@ -24,10 +42,15 @@ msgid ""
 "and configure settings before regular Pull Requests begin.\n"
 "\n"
 msgstr ""
-"欢迎来到[Renovate](%s)!这是一个引导 PR，帮助你在常规 Pull Requests 请求开始"
-"前了解和配置设置。\n"
-"\n"
 
-#: lib/modules/platform/github/index.ts:131
-msgid "You must configure a GitHub token"
-msgstr "你必须配置一个GitHub 通证"
+#: lib/workers/repository/onboarding/pr/index.ts:54
+msgid ""
+"To activate Renovate, merge this Pull Request. To disable Renovate, simply "
+"close this Pull Request unmerged."
+msgstr ""
+
+#: lib/workers/repository/onboarding/pr/index.ts:59
+msgid ""
+"Renovate will begin keeping your dependencies up-to-date only once you merge "
+"or close this Pull Request."
+msgstr ""
