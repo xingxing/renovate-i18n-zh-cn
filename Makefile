@@ -1,4 +1,4 @@
-.PHONY: messages.pot update
+.PHONY: messages.pot update lint
 
 update: messages.pot messages.po
 	@msgmerge --update messages.po messages.pot
@@ -10,3 +10,6 @@ messages.po:
 	@msginit --input=../renovate/i18n/messages.pot \
             --output=messages.po \
             --locale=zh-CN
+
+lint:
+	@msgfmt --check messages.po
