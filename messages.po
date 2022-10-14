@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: renovate-platform\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-12 11:55+0800\n"
-"PO-Revision-Date: 2022-10-12 11:02+0800\n"
+"PO-Revision-Date: 2022-10-14 14:23+0800\n"
 "Last-Translator: xingxing <wadexing@gmail.com>\n"
 "Language-Team: Language zh_CN\n"
 "Language: zh_CN\n"
@@ -1150,7 +1150,7 @@ msgstr ""
 #: renovate/lib/workers/repository/update/pr/body/config-description.ts:13
 msgctxt "worker/repository/update/pr/body"
 msgid "Configuration"
-msgstr ""
+msgstr "配置"
 
 #: renovate/lib/workers/repository/update/pr/body/config-description.ts:16
 msgctxt "worker/repository/update/pr/body"
